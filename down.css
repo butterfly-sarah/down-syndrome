@@ -87,6 +87,7 @@ body{
     width: 100vw;
     overflow: auto;
     position: fixed;
+    z-index: 100;
 }
 #cards{
     width: fit-content;
