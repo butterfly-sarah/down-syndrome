@@ -68,6 +68,9 @@ body{
     width: 180px;
     height: 250px;
 }
+.new:first-child{
+    margin-left: 10vw;
+}
 .nav{
     display: inline-block;
     text-decoration: none;
@@ -101,11 +104,7 @@ body{
     margin-left: 100px;
     margin-top: -35px;
 }
-#person{
-    display: block;
-    margin-top: 55px;
-    width: 65vw;
-}
+
 tr{
     width: 100vw;
     height: 100vh;
@@ -235,6 +234,19 @@ h6{
     text-align: center;
     color: #ffffff;
 }
+#person{
+    display: block;
+    margin-top: 55px;
+    width: 85vw;
+    text-align: justify;
+    word-spacing: 10px;
+    font-family: "Lucida Handwriting";
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+}
 @media(max-width:450px){
     .home{
         width: 100vw;
@@ -316,10 +328,17 @@ h6{
         margin-left: 10px;
     }
     #person{
-        margin-left:0px;
-        margin-top: 25px;
-        width: 305px;
-        height: 50px;
+        display: block;
+        margin-top: 55px;
+        width: 85vw;
+        text-align: justify;
+        word-spacing: 2px;
+        font-family: "Lucida Handwriting";
+        font-size: 10px;
+        font-weight: normal;
+        font-style: italic;
+        text-align: center;
+        color: #ffffff;
     }
     .circle1{
         position: absolute;
